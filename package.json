@@ -1,0 +1,28 @@
+{
+  "name": "anonsaki-odyssey",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Anonsaki's Odyssey - Phaser 3 + TypeScript project skeleton",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "phaser",
+    "typescript",
+    "game",
+    "modding",
+    "anonsaki"
+  ],
+  "author": "Akanclaw",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}
