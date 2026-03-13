@@ -19,7 +19,7 @@ export class BootScene extends Phaser.Scene {
       this.registry.set('saveManager', saveManager);
       this.registry.set('saveData', saveData);
 
-      this.scene.start('MainMenuScene');
+      this.scene.start('MapSelectScene');
     } catch (e) {
       console.error('Boot failed:', e);
     }

@@ -1,5 +1,14 @@
 {
-  "id": "anon",
+  "id": "character.anon",
+  "key": "anon",
   "name": "爱音",
-  "portraits": {}
+  "playable": true,
+  "defaultPortrait": "portrait.anon.default",
+  "portraits": ["portrait.anon.default"],
+  "baseStats": {
+    "maxHp": 100,
+    "moveSpeed": 180,
+    "critRate": 0.05
+  },
+  "starterWeapon": "weapon.rusty-pistol"
 }

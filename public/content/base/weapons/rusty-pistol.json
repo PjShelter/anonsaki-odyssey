@@ -1,0 +1,22 @@
+{
+  "id": "weapon.rusty-pistol",
+  "name": "Rusty Pistol",
+  "type": "pistol",
+  "rarity": "common",
+  "stats": {
+    "damage": 12,
+    "fireIntervalMs": 240,
+    "projectileSpeed": 640,
+    "magazineSize": 12,
+    "reloadMs": 1200
+  },
+  "projectile": {
+    "kind": "bullet.basic",
+    "pierce": 0,
+    "spread": 0
+  },
+  "price": 100,
+  "unlock": {
+    "type": "default"
+  }
+}

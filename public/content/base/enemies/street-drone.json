@@ -1,0 +1,17 @@
+{
+  "id": "enemy.street-drone",
+  "name": "Street Drone",
+  "kind": "normal",
+  "stats": {
+    "maxHp": 40,
+    "moveSpeed": 100,
+    "contactDamage": 10
+  },
+  "behavior": {
+    "ai": "ai.walk-forward",
+    "attack": "attack.contact"
+  },
+  "rewards": {
+    "gold": 8
+  }
+}

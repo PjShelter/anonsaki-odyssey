@@ -1,0 +1,10 @@
+{
+  "id": "portrait.anon.default",
+  "characterId": "character.anon",
+  "expression": "default",
+  "slot": ["left", "center", "right"],
+  "asset": {
+    "type": "image",
+    "path": "/content/base/portraits/anon/default.png"
+  }
+}

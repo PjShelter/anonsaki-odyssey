@@ -1,0 +1,28 @@
+{
+  "id": "map.abandoned-station",
+  "name": "Abandoned Station",
+  "background": "/content/base/maps/abandoned-station/bg.png",
+  "music": "audio.bgm.station",
+  "playerSpawn": {
+    "x": 120,
+    "y": 300
+  },
+  "objective": {
+    "type": "survive",
+    "durationMs": 90000
+  },
+  "waves": [
+    {
+      "atMs": 0,
+      "spawns": [
+        { "enemyId": "enemy.street-drone", "count": 3 }
+      ]
+    },
+    {
+      "atMs": 10000,
+      "spawns": [
+        { "enemyId": "enemy.street-drone", "count": 5 }
+      ]
+    }
+  ]
+}

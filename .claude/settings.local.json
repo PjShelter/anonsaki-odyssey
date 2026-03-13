@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(npm install:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(public/content/base/characters/anon.json:*)",
+      "Bash(public/content/base/characters/sakiko.json:*)",
+      "Bash(public/content/base/portraits/anon.default.json:*)",
+      "Bash(public/content/base/portraits/sakiko.default.json:*)",
+      "Bash(public/content/base/story/chapter-01.json:*)",
+      "Bash(public/content/base/weapons/rusty-pistol.json:*)",
+      "Bash(public/content/base/enemies/street-drone.json:*)",
+      "Bash(public/content/base/maps/abandoned-station.json:*)"
     ]
   }
 }

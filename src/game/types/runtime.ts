@@ -47,6 +47,7 @@ export interface SaveData {
     unlockedWeapons: string[];
     upgrades: Record<string, number>;
     clearedMaps: string[];
+    unlockedStages: string[];
   };
   story: {
     readChapters: string[];

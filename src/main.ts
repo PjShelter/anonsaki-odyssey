@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { BootScene } from './game/scenes/BootScene';
+import { MapSelectScene } from './game/scenes/MapSelectScene';
 import { MainMenuScene } from './game/scenes/MainMenuScene';
 import { DialogueScene } from './game/scenes/DialogueScene';
 import { BattleScene } from './game/scenes/BattleScene';
@@ -18,7 +19,7 @@ const config: Phaser.Types.Core.GameConfig = {
     width: 1280,
     height: 720,
   },
-  scene: [BootScene, MainMenuScene, DialogueScene, BattleScene, ShopScene, GameOverScene],
+  scene: [BootScene, MapSelectScene, MainMenuScene, DialogueScene, BattleScene, ShopScene, GameOverScene],
   physics: {
     default: 'arcade',
     arcade: {

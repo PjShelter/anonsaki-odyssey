@@ -1,0 +1,35 @@
+{
+  "id": "story.chapter-01",
+  "title": "Chapter 1",
+  "nodes": [
+    {
+      "type": "showPortrait",
+      "slot": "left",
+      "portraitId": "portrait.anon.default"
+    },
+    {
+      "type": "say",
+      "speaker": "character.anon",
+      "text": "……这是哪？"
+    },
+    {
+      "type": "showPortrait",
+      "slot": "right",
+      "portraitId": "portrait.sakiko.default"
+    },
+    {
+      "type": "say",
+      "speaker": "character.sakiko",
+      "text": "你醒了？"
+    },
+    {
+      "type": "say",
+      "speaker": "character.anon",
+      "text": "你是……"
+    },
+    {
+      "type": "battle",
+      "mapId": "map.abandoned-station"
+    }
+  ]
+}

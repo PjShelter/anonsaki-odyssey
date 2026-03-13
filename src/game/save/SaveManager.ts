@@ -48,6 +48,7 @@ export class SaveManager {
         unlockedWeapons: [],
         upgrades: {},
         clearedMaps: [],
+        unlockedStages: ['stage-01'],
       },
       story: {
         readChapters: [],

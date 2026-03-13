@@ -1,0 +1,10 @@
+{
+  "id": "portrait.sakiko.default",
+  "characterId": "character.sakiko",
+  "expression": "default",
+  "slot": ["left", "center", "right"],
+  "asset": {
+    "type": "image",
+    "path": "/content/base/portraits/sakiko/default.png"
+  }
+}

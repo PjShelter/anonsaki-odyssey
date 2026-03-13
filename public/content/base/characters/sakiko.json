@@ -1,5 +1,14 @@
 {
-  "id": "sakiko",
+  "id": "character.sakiko",
+  "key": "sakiko",
   "name": "祥子",
-  "portraits": {}
+  "playable": false,
+  "defaultPortrait": "portrait.sakiko.default",
+  "portraits": ["portrait.sakiko.default"],
+  "baseStats": {
+    "maxHp": 80,
+    "moveSpeed": 200,
+    "critRate": 0.1
+  },
+  "starterWeapon": "weapon.rusty-pistol"
 }
