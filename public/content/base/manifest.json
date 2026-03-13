@@ -1,0 +1,18 @@
+{
+  "id": "base",
+  "name": "Base Content Pack",
+  "version": "0.1.0",
+  "title": "Anonsaki Odyssey Base",
+  "author": "Akanclaw",
+  "description": "Official base content pack.",
+  "entry": {
+    "characters": "characters",
+    "portraits": "portraits",
+    "weapons": "weapons",
+    "enemies": "enemies",
+    "maps": "maps",
+    "story": "story",
+    "shop": "shop",
+    "audio": "audio"
+  }
+}
